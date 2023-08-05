@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    margin: 2%;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-weight: normal;
+    text-align: center;
+    font-size: 2vw;
+}
+
+h2,
+h3 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 3vw;
+    color: #444e4a;
+}
+
+h3 a {
+    color: #444e4a;
+    text-decoration: none;
+    font-size: 1vw;
+}
+
+
+
+.sobre_nos h3 {
+    text-align: right;
+}
+
+p {
+    font-family: 'Roboto Serif', serif;
+    font-weight: normal;
+}
+
+header nav li a {
+    font-family: 'Dancing Script', cursive;
+    font-weight: normal;
+}
+
+header h1 {
+    background-color: rgb(45, 43, 43);
+    height: 200px;
+    position: absolute;
+    top: 20px;
+    left: 150px;
+    color: aliceblue;
+    box-shadow: 4px 4px 15px black;
+    padding: 1%;
+
+
+}
+
+header .container,
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+}
+
+header nav li {
+    display: inline;
+    margin: 0 10px;
+
+}
+
+header ul li a {
+    text-decoration: none;
+    color: rgb(45, 43, 43);
+    font-size: 1vw;
+
+
+}
+
+header ul li a:hover {
+    background-color: #444e4a;
+    color: aliceblue
+}
+
+.active {
+    border-bottom: 4px solid black;
+}
+
+section img,
+footer img {
+    width: 100%;
+    border-top: rgb(198, 201, 198) 3px solid;
+
+}
+
+.sobre_nos {
+
+    position: relative;
+    overflow: auto;
+    margin: 3% 0;
+
+}
+
+.about {
+    position: absolute;
+    top: 6%;
+    left: 45%;
+    padding: 1%;
+    text-align: justify;
+    max-width: 35%;
+    overflow: auto;
+    background-color: aliceblue;
+    border: rgb(198, 201, 198) 4px solid;
+    box-shadow: 4px 4px 15px black;
+    font-size: 1vw;
+}
+
+.about p {
+    margin: 2% 0;
+}
+
+
+section .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.produtos {
+    flex-basis: 12%;
+    flex-grow: 1;
+    margin: 1% 10%;
+    text-align: center;
+    border: rgb(198, 201, 198) 4px solid;
+
+}
+
+.produtos li {
+    display: block;
+    background-color: #444e4a;
+    text-align: center;
+    padding: 2% 0;
+    align-items: center;
+}
+
+.produtos li a {
+    text-decoration: none;
+    color: bisque;
+}
+
+section h2,
+h3 {
+    text-align: center;
+    margin: 1% 0;
+
+}
+
+section h3 {
+    margin: 4% 0;
+    font-size: 1vw;
+}
+
+.rodape {
+
+    position: relative;
+    overflow: auto;
+
+}
+
+.icons-rodape {
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    padding: 1%;
+    text-align: justify;
+    align-items: center;
+    overflow: auto;
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-top: rgb(198, 201, 198) 1px solid;
+    box-shadow: 4px 4px 15px black;
+}
+
+.icons-rodape {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+}
+
+.icons-rodape h4 {
+    font-size: 18px;
+    width: 80%;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    color: #444e4a;
+    font-size: 1.5vw;
+    font-family: 'Great Vibes', cursive;
+    font-weight: 300;
+
+}
+
+.icons-rodape i {
+    margin: 1% 1%;
+    font-size: 2vw;
+    color: #444e4a;
+}
+
+.icons-rodape i:hover {
+    color: aliceblue;
+}
+
+.icons-rodape a {
+    text-decoration: none;
+    margin: 0 1%;
+}
